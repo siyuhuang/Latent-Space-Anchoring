@@ -18,7 +18,7 @@ Given an unpaired image-to-image translation (UNIT) model trained on certain dom
 </p>
 
 ### Installation
-We recommend installing this repository using [Anaconda](https://docs.anaconda.com/anaconda/install/). All dependencies are provided in `env.yaml`.
+We recommend installing with [Anaconda](https://docs.anaconda.com/anaconda/install/). All dependencies are provided in `env.yaml`.
 ```
 conda env create -f env.yaml
 conda activate lsa
