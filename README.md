@@ -11,9 +11,18 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
 <img src="docs/intro.png" width="600px"/>
 </p>
 
-Given an unpaired image-to-image translation (UNIT) model trained on certain domains, it is challenging to incorporate new domains. This work includes a domain-scalable UNIT method, termed as latent space anchoring, anchors images of different domains to the same latent space of frozen GANs by learning lightweight encoder and regressor models to reconstruct single-domain images. In inference, the learned encoders and decoders of different domains can be arbitrarily combined to translate images between any two domains without fine-tuning.
+Given an unpaired image-to-image translation (UNIT) model trained on certain domains, it is challenging to incorporate new domains. This work includes a domain-scalable UNIT method, termed as latent space anchoring, anchors images of different domains to the same latent space of frozen GANs by learning lightweight encoder and regressor models to reconstruct single-domain images. In inference, the learned encoders and decoders of different domains can be arbitrarily combined to translate images between any two domains without fine-tuning:
 
 <p align="center">
 <img src="docs/4domain.jpg"/>
 </p>
+
+### Installation
+We recommend installing this repository using [Anaconda](https://docs.anaconda.com/anaconda/install/). All dependencies are provided in `env.yaml`.
+```
+git clone https://github.com/eladrich/pixel2style2pixel.git
+cd Latent-Space-Anchoring
+conda env create -f env.yaml
+conda activate lsa
+```
 
