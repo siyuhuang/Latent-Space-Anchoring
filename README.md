@@ -12,3 +12,6 @@ Given an unpaired image-to-image translation (UNIT) model trained on certain dom
 <img src="docs/intro.png" width="600px"/>
 </p>
 
+<p align="center">
+<img src="docs/4domain.jpg"/>
+</p>
