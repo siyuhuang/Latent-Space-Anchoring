@@ -20,8 +20,6 @@ Given an unpaired image-to-image translation (UNIT) model trained on certain dom
 ### Installation
 We recommend installing this repository using [Anaconda](https://docs.anaconda.com/anaconda/install/). All dependencies are provided in `env.yaml`.
 ```
-git clone https://github.com/eladrich/pixel2style2pixel.git
-cd Latent-Space-Anchoring
 conda env create -f env.yaml
 conda activate lsa
 ```
