@@ -1,0 +1,25 @@
+# sketch_to_ffhq
+python scripts/train.py \
+--dataset_type=sketch_to_ffhq \
+--exp_dir=./logs/sketch2ffhq  \
+--workers=1 \
+--batch_size=4 \
+--test_workers=1 \
+--test_batch_size=4 \
+--board_interval=100 \
+--val_interval=5000 \
+--save_interval=20000 \
+--network_type=gan_to_any \
+--regressor=deeper \
+--encoder_type=GradualStyleEncoder \
+--start_from_latent_avg \
+--seg_lambda=0 \
+--sketch_lambda=10 \
+--latentD_lambda=0.0 \
+--imageD_lambda=0.02 \
+--lpips_lambda=0 \
+--l2_lambda=0 \
+--id_lambda=0 \
+--w_norm_lambda=0.02 \
+--label_nc=1 \
+--input_nc=1

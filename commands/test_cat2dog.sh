@@ -1,0 +1,21 @@
+# afhqcat_to_afhqdog
+python scripts/test.py \
+--phase=test \
+--dataset_type=afhqcat_to_afhqdog \
+--exp_input=./pretrained_models/cat2dog.pt \
+--exp_output=./pretrained_models/cat2dog.pt \
+--result_dir=./results/cat2dog \
+--regressor=shallow \
+--freezeG=2 \
+--input_nc=3 \
+--label_nc=3 \
+--workers=1 \
+--batch_size=1 \
+--test_batch_size=1 \
+--test_workers=1 \
+--network_type=gan_to_any \
+--encoder_type=GradualStyleEncoder \
+--start_from_latent_avg \
+--freezeG=2 \
+--channel_multiplier=2 \
+--output_size=512 

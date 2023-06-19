@@ -1,0 +1,27 @@
+# segmentation_to_ffhq
+python scripts/train.py \
+--dataset_type=celebs_seg_to_ffhq \
+--exp_dir=./logs/seg2ffhq \
+--workers=1 \
+--batch_size=4 \
+--test_batch_size=4 \
+--test_workers=1 \
+--board_interval=100 \
+--val_interval=5000 \
+--save_interval=20000 \
+--network_type=gan_to_any \
+--encoder_type=GradualStyleEncoder \
+--feat_aggregation=single \
+--regressor=deeper \
+--start_from_latent_avg \
+--seg_lambda=1 \
+--sketch_lambda=0 \
+--latentD_lambda=0 \
+--imageD_lambda=0.01 \
+--lpips_lambda=0 \
+--l2_lambda=0 \
+--id_lambda=0 \
+--w_norm_lambda=0.005 \
+--attention_norm_lambda=0 \
+--label_nc=19 \
+--input_nc=19
