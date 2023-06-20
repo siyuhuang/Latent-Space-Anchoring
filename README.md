@@ -24,3 +24,11 @@ conda env create -f env.yaml
 conda activate lsa
 ```
 
+## Pretrained Models
+Please download the pre-trained models from the following links. Each pSp model contains the entire pSp architecture, including the encoder and decoder weights.
+| Path | Description
+| :--- | :----------
+|[seg2ffhq.pt](https://drive.google.com/file/d/1En0y5GTE_U7gWq0jcGSncK0seVFnEfUx/view?usp=sharing)  | Translating from [CelebAMask-HQ](http://mmlab.ie.cuhk.edu.hk/archive/cufsf/) facial semantic segmentation mask to [FFHQ](https://github.com/NVlabs/ffhq-dataset) face image.
+|[sketch2ffhq](https://drive.google.com/file/d/1_ks5FJFRi489UagwxA5L4ddILMfdCN30/view?usp=sharing)  | Translating from [CUFSF](http://mmlab.ie.cuhk.edu.hk/archive/cufsf/) facial sketch to [FFHQ](https://github.com/NVlabs/ffhq-dataset) face image.
+
+
