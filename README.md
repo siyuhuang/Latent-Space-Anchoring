@@ -29,6 +29,7 @@ Please download the pre-trained models from the following links.
 | Link | Enc/Dec Domain | Generator Backbone 
 | :--- | :---------- | :----------
 |[seg2ffhq.pt](https://drive.google.com/file/d/1En0y5GTE_U7gWq0jcGSncK0seVFnEfUx/view?usp=sharing)  | facial semantic segmentation mask ([CelebAMask-HQ](http://mmlab.ie.cuhk.edu.hk/archive/cufsf/)) | StyleGAN2 model trained on [FFHQ](https://github.com/NVlabs/ffhq-dataset) face image.
+
 |[sketch2ffhq](https://drive.google.com/file/d/1_ks5FJFRi489UagwxA5L4ddILMfdCN30/view?usp=sharing)  | Translating from [CUFSF](http://mmlab.ie.cuhk.edu.hk/archive/cufsf/) facial sketch to [FFHQ](https://github.com/NVlabs/ffhq-dataset) face image.
 
 
