@@ -26,12 +26,18 @@ conda activate lsa
 
 ## Pretrained Models
 Please download the pre-trained models from the following links. 
-| Link | Enc/Dec Domain | Generator Backbone 
+| Name | Enc/Dec Domain | Generator Backbone 
 | :--- | :---------- | :----------
 |[seg2ffhq.pt](https://drive.google.com/file/d/1En0y5GTE_U7gWq0jcGSncK0seVFnEfUx/view?usp=sharing)  | facial semantic segmentation mask ([CelebAMask-HQ](https://github.com/switchablenorms/CelebAMask-HQ)) | StyleGAN2 trained on [FFHQ](https://github.com/NVlabs/ffhq-dataset) face.
 |[sketch2ffhq.pt](https://drive.google.com/file/d/1_ks5FJFRi489UagwxA5L4ddILMfdCN30/view?usp=sharing)  | facial sketch ([CUFSF](http://mmlab.ie.cuhk.edu.hk/archive/cufsf/)) | StyleGAN2 trained on [FFHQ](https://github.com/NVlabs/ffhq-dataset) face.
 |[cat2dog.pt](https://drive.google.com/file/d/1V8spSm-pKJXoBZjSrfU3iO2nEYpJqgDx/view?usp=sharing)  | cat face ([AFHQ-cat](https://github.com/clovaai/stargan-v2/blob/master/README.md)) | StyleGAN2 trained on [AFHQ-dog](https://github.com/clovaai/stargan-v2/blob/master/README.md) dog face.
-|[psp_ffhq_encode.pt](https://drive.google.com/file/d/1WmG-Sfcubv3QNwdMsOwW3QUeLiW0nCrf/view?usp=sharing)  | face image ([FFHQ](https://github.com/NVlabs/ffhq-dataset)) | StyleGAN2 trained on [FFHQ](https://github.com/NVlabs/ffhq-dataset) face.
+
+In addition, we provide the auxiliary pre-trained models used for training models of this work.
+| Name | Description
+| :--- | :----------
+|[stylegan2-ffhq-config-f.pt](https://drive.google.com/file/d/1A3rXFwAl2Bkuf6Sd4LUqzrjFmgHT7oM-/view?usp=sharing) | StyleGAN2 trained on [FFHQ](https://github.com/NVlabs/ffhq-dataset) face.
+|[psp_ffhq_encode.pt](https://drive.google.com/file/d/1WmG-Sfcubv3QNwdMsOwW3QUeLiW0nCrf/view?usp=sharing)  | The encoder for StyleGAN2-FFHQ.
+|[model_ir_se50.pth] | [IR-SE50 model](https://github.com/TreB1eN/InsightFace_Pytorch) for encoder weight initialization.
 
 ## Testing
 ### Segmentation Mask to Face
