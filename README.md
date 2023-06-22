@@ -76,7 +76,7 @@ bash commands/test_seg2ffhq.sh
 
 Unpaired image translation results from CUFSF facial sketch to FFHQ image. Figures: input, regressor output, generator output.
 
-Please download ([CUFSF](http://mmlab.ie.cuhk.edu.hk/archive/cufsf/), put it under `./data/`. Manually split the dataset into training and test sets (we use the first 1k images as training set and the rest ones as test set). Download pre-trained model [sketch2ffhq.pt](https://drive.google.com/file/d/1_ks5FJFRi489UagwxA5L4ddILMfdCN30/view?usp=sharing), put it under `./pretrained_models`. The folder structure is
+Please download ([CUFSF](http://mmlab.ie.cuhk.edu.hk/archive/cufsf/), put it under `./data/`. Manually split the dataset into training and test sets (we use the first 1k images as training set and the rest as test set). Download pre-trained model [sketch2ffhq.pt](https://drive.google.com/file/d/1_ks5FJFRi489UagwxA5L4ddILMfdCN30/view?usp=sharing), put it under `./pretrained_models`. The folder structure is
 ```
 Latent-Space-Anchoring
 ├── data
