@@ -41,7 +41,22 @@ In addition, we provide the auxiliary pre-trained models used for training model
 
 ## Testing
 ### Segmentation Mask to Face
-Please download [CelebAMask-HQ dataset](https://github.com/switchablenorms/CelebAMask-HQ), put it under `./data/`. Run
+Please download [CelebAMask-HQ dataset](https://github.com/switchablenorms/CelebAMask-HQ), put it under `./data/`. The folder structure is
+```
+Latent-Space-Anchoring
+├── data
+│   ├── CelebAMask-HQ
+│   │   ├── face_parsing
+│   │   │   ├── Data_preprocessing
+│   │   │   ├── ├── train_img
+│   │   │   ├── ├── train_label
+│   │   │   ├── ├── test_img
+│   │   │   ├── ├── test_label
+├── commands
+│   ├── test_seg2ffhq.sh
+│   ├── ...
+```
+Run
 ```
 bash commands/test_seg2ffhq.sh
 ```
