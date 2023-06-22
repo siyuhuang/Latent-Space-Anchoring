@@ -44,7 +44,7 @@ In addition, we provide the auxiliary pre-trained models used for training model
 <p align="left">
 <img src="docs/seg2ffhq.jpg" width="400px"/>
 </p>
-input regressor output generator output
+input      regressor output   generator output
 
 Unpaired image translation from CelebAMask-HQ mask to FFHQ image.
 
