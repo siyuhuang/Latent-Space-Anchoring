@@ -40,7 +40,7 @@ In addition, we provide the auxiliary pre-trained models used for training model
 |[model_ir_se50.pth](https://drive.google.com/file/d/1lcrPgEA7PZk9mQCG2BS7DP6FUdl-4sm6/view?usp=sharing) | [IR-SE50](https://github.com/TreB1eN/InsightFace_Pytorch) used for StyleGAN2 encoder's weight initialization.
 
 ## Testing
-### Segmentation-to-FFHQ
+### CelebAMask-to-FFHQ
 <p align="left">
 <img src="docs/seg2ffhq.jpg" width="400px"/>
 </p>
