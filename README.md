@@ -40,7 +40,9 @@ In addition, we provide the auxiliary pre-trained models used for training model
 |[model_ir_se50.pth](https://drive.google.com/file/d/1lcrPgEA7PZk9mQCG2BS7DP6FUdl-4sm6/view?usp=sharing) | [IR-SE50](https://github.com/TreB1eN/InsightFace_Pytorch) used for StyleGAN2 encoder's weight initialization.
 
 ## Testing
-### Segmentation Mask to Face
+### Segmentation-to-FFHQ
+Unpaired image translation from CelebAMask-HQ mask to FFHQ image.
+
 Please download [CelebAMask-HQ dataset](https://github.com/switchablenorms/CelebAMask-HQ), put it under `./data/`. The folder structure is
 ```
 Latent-Space-Anchoring
