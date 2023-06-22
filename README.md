@@ -184,6 +184,43 @@ Run:
 ```
 bash commands/test_seg2sketch.sh
 ```
+
+## Testing
+### Cat-to-Dog
+<p align="left">
+<img src="docs/cat2dog.jpg" width="400px"/>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;regressor output&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;generator output
+</p>
+
+Unpaired image translation from AFHQ-cat to AFHQ-dog.
+
+Please download [AFHQ dataset](https://github.com/clovaai/stargan-v2/blob/master/README.md), put it under `./data/`. Download pre-trained model [cat2dog.pt](https://drive.google.com/file/d/1V8spSm-pKJXoBZjSrfU3iO2nEYpJqgDx/view?usp=sharing), put it under `./pretrained_models`. The folder structure is
+```
+Latent-Space-Anchoring
+├── data
+│   ├── AFHQ
+│   │   ├── afhq
+│   │   │   ├── train
+│   │   │   ├── ├── cat
+│   │   │   ├── ├── dog
+│   │   │   ├── ├── wild
+│   │   │   ├── test
+│   │   │   ├── ├── cat
+│   │   │   ├── ├── dog
+│   │   │   ├── ├── wild
+├── pretrained_models
+│   ├── cat2dog.pt
+├── commands
+│   ├── test_cat2dog.sh
+```
+
+Run:
+```
+bash commands/test_cat2dog.sh
+```
+
+
 ## Training
 
 
