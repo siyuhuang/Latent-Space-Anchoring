@@ -91,7 +91,7 @@ Latent-Space-Anchoring
 
 Run:
 ```
-bash commands/test_seg2ffhq.sh
+bash commands/test_sketch2ffhq.sh
 ```
 ## Training
 
