@@ -36,8 +36,8 @@ In addition, we provide the auxiliary pre-trained models used for training model
 | Name | Description
 | :--- | :----------
 |[stylegan2-ffhq-config-f.pt](https://drive.google.com/file/d/1A3rXFwAl2Bkuf6Sd4LUqzrjFmgHT7oM-/view?usp=sharing) | StyleGAN2 on [FFHQ](https://github.com/NVlabs/ffhq-dataset) face.
-|[psp_ffhq_encode.pt](https://drive.google.com/file/d/1WmG-Sfcubv3QNwdMsOwW3QUeLiW0nCrf/view?usp=sharing)  | The image encoder trained for [StyleGAN2-FFHQ](https://github.com/rosinality/stylegan2-pytorch).
-|[model_ir_se50.pth](https://drive.google.com/file/d/1lcrPgEA7PZk9mQCG2BS7DP6FUdl-4sm6/view?usp=sharing) | [IR-SE50](https://github.com/TreB1eN/InsightFace_Pytorch), which is used for StyleGAN2 encoder's weight initialization.
+|[psp_ffhq_encode.pt](https://drive.google.com/file/d/1WmG-Sfcubv3QNwdMsOwW3QUeLiW0nCrf/view?usp=sharing)  | The image encoder of [StyleGAN2-FFHQ](https://github.com/rosinality/stylegan2-pytorch).
+|[model_ir_se50.pth](https://drive.google.com/file/d/1lcrPgEA7PZk9mQCG2BS7DP6FUdl-4sm6/view?usp=sharing) | [IR-SE50](https://github.com/TreB1eN/InsightFace_Pytorch) used for StyleGAN2 encoder's weight initialization.
 
 ## Testing
 ### Segmentation Mask to Face
