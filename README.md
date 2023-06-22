@@ -45,7 +45,7 @@ In addition, we provide the auxiliary pre-trained models used for training model
 <img src="docs/seg2ffhq.jpg" width="400px"/>
 </p>
 
-Unpaired image translation results from CelebAMask-HQ mask to FFHQ image. Figures: input, regressor output, generator output.
+Unpaired image translation from CelebAMask-HQ mask to FFHQ image. Figures: input, regressor output, generator output.
 
 Please download [CelebAMask-HQ dataset](https://github.com/switchablenorms/CelebAMask-HQ), put it under `./data/`. Download pre-trained model [seg2ffhq.pt](https://drive.google.com/file/d/1En0y5GTE_U7gWq0jcGSncK0seVFnEfUx/view?usp=sharing), put it under `./pretrained_models`. The folder structure is
 ```
@@ -74,7 +74,7 @@ bash commands/test_seg2ffhq.sh
 <img src="docs/sketch2ffhq.jpg" width="400px"/>
 </p>
 
-Unpaired image translation results from CUFSF facial sketch to FFHQ image. Figures: input, regressor output, generator output.
+Unpaired image translation from CUFSF facial sketch to FFHQ image. Figures: input, regressor output, generator output.
 
 Please download ([CUFSF](http://mmlab.ie.cuhk.edu.hk/archive/cufsf/), put it under `./data/`. Manually split the dataset into training and test sets (we use the first 1k images as training set and the rest as test set). Download pre-trained model [sketch2ffhq.pt](https://drive.google.com/file/d/1_ks5FJFRi489UagwxA5L4ddILMfdCN30/view?usp=sharing), put it under `./pretrained_models`. The folder structure is
 ```
