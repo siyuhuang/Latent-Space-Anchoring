@@ -47,7 +47,9 @@ In addition, we provide the auxiliary pre-trained models used for training model
 
 Unpaired image translation results from CelebAMask-HQ mask to FFHQ image. Figures: input, regressor output, generator output.
 
-Please download [CelebAMask-HQ dataset](https://github.com/switchablenorms/CelebAMask-HQ), put it under `./data/`. The folder structure is
+Please download [CelebAMask-HQ dataset](https://github.com/switchablenorms/CelebAMask-HQ), put it under `./data/`. Download the pre-trained model [seg2ffhq.pt](https://drive.google.com/file/d/1En0y5GTE_U7gWq0jcGSncK0seVFnEfUx/view?usp=sharing), put it under `./pretrained_models`.
+
+The folder structure is
 ```
 Latent-Space-Anchoring
 ├── data
@@ -58,9 +60,10 @@ Latent-Space-Anchoring
 │   │   │   ├── ├── train_label
 │   │   │   ├── ├── test_img
 │   │   │   ├── ├── test_label
+├── pretrained_models
+│   ├── seg2ffhq.pt
 ├── commands
 │   ├── test_seg2ffhq.sh
-│   ├── ...
 ```
 Run
 ```
