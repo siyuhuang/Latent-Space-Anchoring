@@ -41,11 +41,11 @@ In addition, we provide the auxiliary pre-trained models used for training model
 
 ## Testing
 ### Segmentation Mask to Face
-Please download [CelebAMask-HQ dataset](https://github.com/switchablenorms/CelebAMask-HQ), put it under './data/'.
+Please download [CelebAMask-HQ dataset](https://github.com/switchablenorms/CelebAMask-HQ), put it under `./data/`.
 run
-'''
+```
 bash commands/test_seg2ffhq.sh
-'''
+```
 
 ## Training
 
