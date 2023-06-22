@@ -43,6 +43,7 @@ In addition, we provide the auxiliary pre-trained models used for training model
 ### CelebAMask-to-FFHQ
 <p align="left">
 <img src="docs/seg2ffhq.jpg" width="400px"/>
+<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;regressor output&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;generator output
 </p>
 
