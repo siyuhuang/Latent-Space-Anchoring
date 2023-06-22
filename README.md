@@ -44,7 +44,7 @@ In addition, we provide the auxiliary pre-trained models used for training model
 <p align="left">
 <img src="docs/seg2ffhq.jpg" width="400px"/>
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;regressor output&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;generator output
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;regressor output&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;generator output
 </p>
 
 
@@ -75,6 +75,8 @@ bash commands/test_seg2ffhq.sh
 ### Sketch-to-FFHQ
 <p align="left">
 <img src="docs/sketch2ffhq.jpg" width="400px"/>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;regressor output&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;generator output
 </p>
 
 Unpaired image translation from CUFSF facial sketch to FFHQ image. Figures: input, regressor output, generator output.
@@ -100,6 +102,8 @@ bash commands/test_sketch2ffhq.sh
 ### FFHQ-to-CelebAMask
 <p align="left">
 <img src="docs/ffhq2seg.jpg" width="400px"/>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;regressor output&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;generator output
 </p>
 
 Unpaired image translation from FFHQ image to CelebAMask-HQ mask. Figures: input, regressor output, generator output.
@@ -120,6 +124,33 @@ Latent-Space-Anchoring
 Run:
 ```
 bash commands/test_seg2ffhq.sh
+```
+
+### FFHQ-to-Sketch
+<p align="left">
+<img src="docs/ffhq2sketch.jpg" width="400px"/>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;regressor output&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;generator output
+</p>
+
+Unpaired image translation from FFHQ image to CUFSF facial sketch. Figures: input, regressor output, generator output.
+
+Please download [FFHQ dataset](https://github.com/NVlabs/ffhq-dataset), put it under `./data/`. Download pre-trained models [sketch2ffhq.pt](https://drive.google.com/file/d/1En0y5GTE_U7gWq0jcGSncK0seVFnEfUx/view?usp=sharing) and [psp_ffhq_encode.pt](https://drive.google.com/file/d/1WmG-Sfcubv3QNwdMsOwW3QUeLiW0nCrf/view?usp=sharing), put them under `./pretrained_models`. The folder structure is
+```
+Latent-Space-Anchoring
+├── data
+│   ├── ffhq
+│   │   ├── images1024x1024
+├── pretrained_models
+│   ├── sketch2ffhq.pt
+│   ├── psp_ffhq_encode.pt
+├── commands
+│   ├── test_ffhq2sketch.sh
+```
+
+Run:
+```
+bash commands/test_ffhq2sketch.sh
 ```
 
 ## Training
