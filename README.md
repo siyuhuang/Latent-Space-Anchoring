@@ -93,6 +93,32 @@ Run:
 ```
 bash commands/test_sketch2ffhq.sh
 ```
+
+### FFHQ-to-CelebAMask
+<p align="left">
+<img src="docs/seg2ffhq.jpg" width="400px"/>
+</p>
+
+Unpaired image translation from FFHQ image to CelebAMask-HQ mask. Figures: input, regressor output, generator output.
+
+Please download [FFHQ dataset](https://github.com/NVlabs/ffhq-dataset), put it under `./data/`. Download pre-trained models [seg2ffhq.pt](https://drive.google.com/file/d/1En0y5GTE_U7gWq0jcGSncK0seVFnEfUx/view?usp=sharing) and [psp_ffhq_encode.pt](https://drive.google.com/file/d/1WmG-Sfcubv3QNwdMsOwW3QUeLiW0nCrf/view?usp=sharing), put them under `./pretrained_models`. The folder structure is
+```
+Latent-Space-Anchoring
+├── data
+│   ├── ffhq
+│   │   ├── images1024x1024
+├── pretrained_models
+│   ├── seg2ffhq.pt
+│   ├── psp_ffhq_encode.pt
+├── commands
+│   ├── test_ffhq2seg.sh
+```
+
+Run:
+```
+bash commands/test_seg2ffhq.sh
+```
+
 ## Training
 
 
