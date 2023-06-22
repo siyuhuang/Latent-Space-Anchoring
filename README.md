@@ -44,8 +44,9 @@ In addition, we provide the auxiliary pre-trained models used for training model
 <p align="left">
 <img src="docs/seg2ffhq.jpg" width="400px"/>
 </p>
+input regressor output generator output
 
-Unpaired image translation from CelebAMask-HQ mask to FFHQ image. Figures: input, regressor output, generator output.
+Unpaired image translation from CelebAMask-HQ mask to FFHQ image.
 
 Please download [CelebAMask-HQ dataset](https://github.com/switchablenorms/CelebAMask-HQ), put it under `./data/`. Download pre-trained model [seg2ffhq.pt](https://drive.google.com/file/d/1En0y5GTE_U7gWq0jcGSncK0seVFnEfUx/view?usp=sharing), put it under `./pretrained_models`. The folder structure is
 ```
@@ -96,7 +97,7 @@ bash commands/test_sketch2ffhq.sh
 
 ### FFHQ-to-CelebAMask
 <p align="left">
-<img src="docs/seg2ffhq.jpg" width="400px"/>
+<img src="docs/ffhq2seg.jpg" width="400px"/>
 </p>
 
 Unpaired image translation from FFHQ image to CelebAMask-HQ mask. Figures: input, regressor output, generator output.
