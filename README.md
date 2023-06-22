@@ -64,7 +64,7 @@ Latent-Space-Anchoring
 │   ├── test_seg2ffhq.sh
 ```
 
-Run
+Run:
 ```
 bash commands/test_seg2ffhq.sh
 ```
