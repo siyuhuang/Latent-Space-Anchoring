@@ -41,10 +41,11 @@ In addition, we provide the auxiliary pre-trained models used for training model
 
 ## Testing
 ### CelebAMask-to-FFHQ
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;regressor output&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;generator output
 <p align="left">
 <img src="docs/seg2ffhq.jpg" width="400px"/>
 </p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;regressor output&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;generator output
+
 
 Unpaired image translation from CelebAMask-HQ mask to FFHQ image.
 
