@@ -42,7 +42,7 @@ In addition, we provide the auxiliary pre-trained models used for training model
 ## Testing
 ### Segmentation-to-FFHQ
 <p align="left">
-<img src="docs/seg2ffhq.jpg"/>
+<img src="docs/seg2ffhq.jpg" width="300px"/>
 </p>
 Unpaired image translation from CelebAMask-HQ mask to FFHQ image. Figures: input, regressor output, generator output.
 
