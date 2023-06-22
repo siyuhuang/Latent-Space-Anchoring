@@ -153,6 +153,37 @@ Run:
 bash commands/test_ffhq2sketch.sh
 ```
 
+### CelebAMask-to-Sketch
+<p align="left">
+<img src="docs/seg2sketch.jpg" width="400px"/>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;regressor output&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;generator output
+</p>
+
+Unpaired image translation from CelebAMask-HQ mask to CUFSF facial sketch.
+
+Please download [CelebAMask-HQ dataset](https://github.com/switchablenorms/CelebAMask-HQ), put it under `./data/`. Download pre-trained model [seg2ffhq.pt](https://drive.google.com/file/d/1En0y5GTE_U7gWq0jcGSncK0seVFnEfUx/view?usp=sharing) and [sketch2ffhq.pt](https://drive.google.com/file/d/1En0y5GTE_U7gWq0jcGSncK0seVFnEfUx/view?usp=sharing), put them under `./pretrained_models`. The folder structure is
+```
+Latent-Space-Anchoring
+├── data
+│   ├── CelebAMask-HQ
+│   │   ├── face_parsing
+│   │   │   ├── Data_preprocessing
+│   │   │   ├── ├── train_img
+│   │   │   ├── ├── train_label
+│   │   │   ├── ├── test_img
+│   │   │   ├── ├── test_label
+├── pretrained_models
+│   ├── seg2ffhq.pt
+│   ├── sketch2ffhq.pt
+├── commands
+│   ├── test_seg2sketch.sh
+```
+
+Run:
+```
+bash commands/test_seg2sketch.sh
+```
 ## Training
 
 
