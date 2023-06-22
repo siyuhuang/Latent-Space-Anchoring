@@ -74,23 +74,19 @@ bash commands/test_seg2ffhq.sh
 <img src="docs/sketch2ffhq.jpg" width="400px"/>
 </p>
 
-Unpaired image translation results from CUFSF sketch to FFHQ image. Figures: input, regressor output, generator output.
+Unpaired image translation results from CUFSF facial sketch to FFHQ image. Figures: input, regressor output, generator output.
 
-Please download [CelebAMask-HQ dataset](https://github.com/switchablenorms/CelebAMask-HQ), put it under `./data/`. Download pre-trained model [seg2ffhq.pt](https://drive.google.com/file/d/1En0y5GTE_U7gWq0jcGSncK0seVFnEfUx/view?usp=sharing), put it under `./pretrained_models`. The folder structure is
+Please download ([CUFSF](http://mmlab.ie.cuhk.edu.hk/archive/cufsf/), put it under `./data/`. Manually split the dataset into training and test sets (We use the first 1000 images as training set and the rest ones as test set). Download pre-trained model [sketch2ffhq.pt](https://drive.google.com/file/d/1_ks5FJFRi489UagwxA5L4ddILMfdCN30/view?usp=sharing), put it under `./pretrained_models`. The folder structure is
 ```
 Latent-Space-Anchoring
 ├── data
-│   ├── CelebAMask-HQ
-│   │   ├── face_parsing
-│   │   │   ├── Data_preprocessing
-│   │   │   ├── ├── train_img
-│   │   │   ├── ├── train_label
-│   │   │   ├── ├── test_img
-│   │   │   ├── ├── test_label
+│   ├── CUFSF
+│   │   ├── train
+│   │   ├── test
 ├── pretrained_models
-│   ├── seg2ffhq.pt
+│   ├── sketch2ffhq.pt
 ├── commands
-│   ├── test_seg2ffhq.sh
+│   ├── test_sketch2ffhq.sh
 ```
 
 Run:
