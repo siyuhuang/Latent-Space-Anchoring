@@ -41,7 +41,11 @@ In addition, we provide the auxiliary pre-trained models used for training model
 
 ## Testing
 ### Segmentation Mask to Face
-Download [CelebAMask-HQ](http://mmlab.ie.cuhk.edu.hk/archive/cufsf/)
+Please download [CelebAMask-HQ dataset](https://github.com/switchablenorms/CelebAMask-HQ), put it under './data/'.
+run
+'''
+bash commands/test_seg2ffhq.sh
+'''
 
 ## Training
 
