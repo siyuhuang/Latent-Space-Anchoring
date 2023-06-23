@@ -72,6 +72,18 @@ Run:
 bash commands/test_seg2ffhq.sh
 ```
 
+<p align="left">
+<img src="docs/diverese.jpg"/>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;regressor output&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;generator output
+</p>
+
+We also support diverse generations, by running:
+Run:
+```
+bash commands/inference_seg2ffhq.sh
+```
+
 ### Sketch-to-FFHQ
 <p align="left">
 <img src="docs/sketch2ffhq.jpg" width="400px"/>
@@ -185,7 +197,6 @@ Run:
 bash commands/test_seg2sketch.sh
 ```
 
-## Testing
 ### Cat-to-Dog
 <p align="left">
 <img src="docs/cat2dog.jpg" width="400px"/>
@@ -224,6 +235,9 @@ bash commands/test_cat2dog.sh
 ## Training
 
 
+
+
+## Sampling
 
 
 
