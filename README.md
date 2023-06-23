@@ -282,7 +282,7 @@ We support diverse model generations.
 <img src="docs/diverse.jpg"/>
 </p>
 
-Please follow **CelebAMask-to-FFHQ** to prepare dataset and pre-trained models. Run:
+Please follow ***Testing: CelebAMask-to-FFHQ** to prepare dataset and pre-trained models. Run:
 ```
 bash commands/inference_seg2ffhq.sh
 ```
@@ -293,7 +293,7 @@ We support sampling high-resolution (i.e., 1024x1024) mask and images from a ran
 <img src="docs/sampling.jpg"/>
 </p>
 
-Please follow **CelebAMask-to-FFHQ** to prepare dataset and pre-trained models. Run:
+Please follow **Testing: CelebAMask-to-FFHQ** to prepare dataset and pre-trained models. Run:
 ```
 bash commands/sampling_seg2ffhq.sh
 ```
