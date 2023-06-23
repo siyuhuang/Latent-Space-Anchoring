@@ -234,8 +234,8 @@ Please follow **CelebAMask-to-FFHQ** to prepare dataset and pre-trained modes. R
 bash commands/inference_seg2ffhq.sh
 ```
 
-## Sampling
-We support sampling from a random noise.
+## High-Resolution Sampling
+We support sampling high-resolution (i.e., 1024x1024) mask and images from a random noise.
 <p align="left">
 <img src="docs/sampling.jpg"/>
 </p>
