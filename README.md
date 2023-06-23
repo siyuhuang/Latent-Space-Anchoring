@@ -49,7 +49,7 @@ In addition, we provide the auxiliary pre-trained models used for training our m
 
 Unpaired image translation from CelebAMask-HQ mask to FFHQ image.
 
-Please download [CelebAMask-HQ dataset](https://github.com/switchablenorms/CelebAMask-HQ), put it under `./data/`. Download pre-trained model [seg2ffhq.pt](https://drive.google.com/file/d/1En0y5GTE_U7gWq0jcGSncK0seVFnEfUx/view?usp=sharing), put it under `./pretrained_models`. The folder structure is
+Please download [CelebAMask-HQ dataset](https://github.com/switchablenorms/CelebAMask-HQ), put it in `./data/`. Download pre-trained model [seg2ffhq.pt](https://drive.google.com/file/d/1En0y5GTE_U7gWq0jcGSncK0seVFnEfUx/view?usp=sharing), put it in `./pretrained_models`. The folder structure is
 ```
 Latent-Space-Anchoring
 ├── data
@@ -80,7 +80,7 @@ bash commands/test_seg2ffhq.sh
 
 Unpaired image translation from CUFSF facial sketch to FFHQ image. Figures: input, regressor output, generator output.
 
-Please download ([CUFSF](http://mmlab.ie.cuhk.edu.hk/archive/cufsf/), put it under `./data/`. Manually split the dataset into training and test sets (we use the first 1k images as training set and the rest as test set). Download pre-trained model [sketch2ffhq.pt](https://drive.google.com/file/d/1_ks5FJFRi489UagwxA5L4ddILMfdCN30/view?usp=sharing), put it under `./pretrained_models`. The folder structure is
+Please download ([CUFSF](http://mmlab.ie.cuhk.edu.hk/archive/cufsf/), put it in `./data/`. Manually split the dataset into training and test sets (we use the first 1k images as training set and the rest as test set). Download pre-trained model [sketch2ffhq.pt](https://drive.google.com/file/d/1_ks5FJFRi489UagwxA5L4ddILMfdCN30/view?usp=sharing), put it in `./pretrained_models`. The folder structure is
 ```
 Latent-Space-Anchoring
 ├── data
@@ -107,7 +107,7 @@ bash commands/test_sketch2ffhq.sh
 
 Unpaired image translation from FFHQ image to CelebAMask-HQ mask. Figures: input, regressor output, generator output.
 
-Please download [FFHQ dataset](https://github.com/NVlabs/ffhq-dataset), put it under `./data/`. Download pre-trained models [seg2ffhq.pt](https://drive.google.com/file/d/1En0y5GTE_U7gWq0jcGSncK0seVFnEfUx/view?usp=sharing) and [psp_ffhq_encode.pt](https://drive.google.com/file/d/1WmG-Sfcubv3QNwdMsOwW3QUeLiW0nCrf/view?usp=sharing), put them under `./pretrained_models`. The folder structure is
+Please download [FFHQ dataset](https://github.com/NVlabs/ffhq-dataset), put it in `./data/`. Download pre-trained models [seg2ffhq.pt](https://drive.google.com/file/d/1En0y5GTE_U7gWq0jcGSncK0seVFnEfUx/view?usp=sharing) and [psp_ffhq_encode.pt](https://drive.google.com/file/d/1WmG-Sfcubv3QNwdMsOwW3QUeLiW0nCrf/view?usp=sharing), put them in `./pretrained_models`. The folder structure is
 ```
 Latent-Space-Anchoring
 ├── data
@@ -134,7 +134,7 @@ bash commands/test_seg2ffhq.sh
 
 Unpaired image translation from FFHQ image to CUFSF facial sketch. Figures: input, regressor output, generator output.
 
-Please download [FFHQ dataset](https://github.com/NVlabs/ffhq-dataset), put it under `./data/`. Download pre-trained models [sketch2ffhq.pt](https://drive.google.com/file/d/1En0y5GTE_U7gWq0jcGSncK0seVFnEfUx/view?usp=sharing) and [psp_ffhq_encode.pt](https://drive.google.com/file/d/1WmG-Sfcubv3QNwdMsOwW3QUeLiW0nCrf/view?usp=sharing), put them under `./pretrained_models`. The folder structure is
+Please download [FFHQ dataset](https://github.com/NVlabs/ffhq-dataset), put it in `./data/`. Download pre-trained models [sketch2ffhq.pt](https://drive.google.com/file/d/1En0y5GTE_U7gWq0jcGSncK0seVFnEfUx/view?usp=sharing) and [psp_ffhq_encode.pt](https://drive.google.com/file/d/1WmG-Sfcubv3QNwdMsOwW3QUeLiW0nCrf/view?usp=sharing), put them in `./pretrained_models`. The folder structure is
 ```
 Latent-Space-Anchoring
 ├── data
@@ -161,7 +161,7 @@ bash commands/test_ffhq2sketch.sh
 
 Unpaired image translation from CelebAMask-HQ mask to CUFSF facial sketch.
 
-Please download [CelebAMask-HQ dataset](https://github.com/switchablenorms/CelebAMask-HQ), put it under `./data/`. Download pre-trained model [seg2ffhq.pt](https://drive.google.com/file/d/1En0y5GTE_U7gWq0jcGSncK0seVFnEfUx/view?usp=sharing) and [sketch2ffhq.pt](https://drive.google.com/file/d/1En0y5GTE_U7gWq0jcGSncK0seVFnEfUx/view?usp=sharing), put them under `./pretrained_models`. The folder structure is
+Please download [CelebAMask-HQ dataset](https://github.com/switchablenorms/CelebAMask-HQ), put it in `./data/`. Download pre-trained model [seg2ffhq.pt](https://drive.google.com/file/d/1En0y5GTE_U7gWq0jcGSncK0seVFnEfUx/view?usp=sharing) and [sketch2ffhq.pt](https://drive.google.com/file/d/1En0y5GTE_U7gWq0jcGSncK0seVFnEfUx/view?usp=sharing), put them in `./pretrained_models`. The folder structure is
 ```
 Latent-Space-Anchoring
 ├── data
@@ -193,7 +193,7 @@ bash commands/test_seg2sketch.sh
 
 Unpaired image translation from AFHQ-cat to AFHQ-dog.
 
-Please download [AFHQ dataset](https://github.com/clovaai/stargan-v2/blob/master/README.md), put it under `./data/`. Download pre-trained model [cat2dog.pt](https://drive.google.com/file/d/1V8spSm-pKJXoBZjSrfU3iO2nEYpJqgDx/view?usp=sharing), put it under `./pretrained_models`. The folder structure is
+Please download [AFHQ dataset](https://github.com/clovaai/stargan-v2/blob/master/README.md), put it in `./data/`. Download pre-trained model [cat2dog.pt](https://drive.google.com/file/d/1V8spSm-pKJXoBZjSrfU3iO2nEYpJqgDx/view?usp=sharing), put it in `./pretrained_models`. The folder structure is
 ```
 Latent-Space-Anchoring
 ├── data
@@ -225,7 +225,7 @@ It requires a single GPU with at least 16GB memory. Less GPU memory with a small
 ### CelebAMask-to-FFHQ
 Training the encoder and regressor for CelebAMask-HQ mask domain, with StyleGAN2-FFHQ as the generator backbone. 
 
-Please download [CelebAMask-HQ dataset](https://github.com/switchablenorms/CelebAMask-HQ) and [FFHQ dataset](https://github.com/NVlabs/ffhq-dataset), put them under `./data/`. Download pre-trained models [stylegan2-ffhq-config-f.pt](https://drive.google.com/file/d/1A3rXFwAl2Bkuf6Sd4LUqzrjFmgHT7oM-/view?usp=sharing) and [model_ir_se50.pth](https://drive.google.com/file/d/1lcrPgEA7PZk9mQCG2BS7DP6FUdl-4sm6/view?usp=sharing), put them under `./pretrained_models`. The folder structure is
+Please download [CelebAMask-HQ dataset](https://github.com/switchablenorms/CelebAMask-HQ) and [FFHQ dataset](https://github.com/NVlabs/ffhq-dataset), put them in `./data/`. Download pre-trained models [stylegan2-ffhq-config-f.pt](https://drive.google.com/file/d/1A3rXFwAl2Bkuf6Sd4LUqzrjFmgHT7oM-/view?usp=sharing) and [model_ir_se50.pth](https://drive.google.com/file/d/1lcrPgEA7PZk9mQCG2BS7DP6FUdl-4sm6/view?usp=sharing), put them in `./pretrained_models`. The folder structure is
 ```
 Latent-Space-Anchoring
 ├── data
@@ -254,7 +254,7 @@ The training results and model checkpoints will be saved in `./logs/seg2ffhq`.
 ### Sketch-to-FFHQ
 Training the encoder and regressor for CUFSF facial sketch domain, with StyleGAN2-FFHQ as the generator backbone. 
 
-Please download [CUFSF](http://mmlab.ie.cuhk.edu.hk/archive/cufsf/) and [FFHQ dataset](https://github.com/NVlabs/ffhq-dataset), put them under `./data/`. Download pre-trained models [stylegan2-ffhq-config-f.pt](https://drive.google.com/file/d/1A3rXFwAl2Bkuf6Sd4LUqzrjFmgHT7oM-/view?usp=sharing) and [model_ir_se50.pth](https://drive.google.com/file/d/1lcrPgEA7PZk9mQCG2BS7DP6FUdl-4sm6/view?usp=sharing), put them under `./pretrained_models`. The folder structure is
+Please download [CUFSF](http://mmlab.ie.cuhk.edu.hk/archive/cufsf/) and [FFHQ dataset](https://github.com/NVlabs/ffhq-dataset), put them in `./data/`. Download pre-trained models [stylegan2-ffhq-config-f.pt](https://drive.google.com/file/d/1A3rXFwAl2Bkuf6Sd4LUqzrjFmgHT7oM-/view?usp=sharing) and [model_ir_se50.pth](https://drive.google.com/file/d/1lcrPgEA7PZk9mQCG2BS7DP6FUdl-4sm6/view?usp=sharing), put them in `./pretrained_models`. The folder structure is
 ```
 Latent-Space-Anchoring
 ├── data
