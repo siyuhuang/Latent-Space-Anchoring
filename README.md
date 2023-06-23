@@ -237,7 +237,7 @@ bash commands/inference_seg2ffhq.sh
 ## Sampling
 We support sampling from a random noise.
 <p align="left">
-<img src="docs/sampling"/>
+<img src="docs/sampling.jpg"/>
 </p>
 
 Please follow **CelebAMask-to-FFHQ** to prepare dataset and pre-trained modes. Run:
