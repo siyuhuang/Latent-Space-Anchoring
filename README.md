@@ -249,7 +249,7 @@ Run:
 ```
 bash commands/train_seg2ffhq.sh
 ```
-The training results and model checkpoint will be saved in `./logs/seg2ffhq`.
+The training results and model checkpoints will be saved in `./logs/seg2ffhq`.
 
 ### Sketch-to-FFHQ
 Training the encoder and regressor for CUFSF facial sketch domain, with StyleGAN2-FFHQ as the generator backbone. 
@@ -274,7 +274,7 @@ Run:
 ```
 bash commands/train_sketch2ffhq.sh
 ```
-The training results and model checkpoint will be saved in `./logs/sketch2ffhq`.
+The training results and model checkpoints will be saved in `./logs/sketch2ffhq`.
 
 ## Diverse Generations
 We support diverse model generations.
