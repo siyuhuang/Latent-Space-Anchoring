@@ -73,7 +73,7 @@ bash commands/test_seg2ffhq.sh
 ```
 
 <p align="left">
-<img src="docs/diverese.jpg"/>
+<img src="docs/diverse.jpg"/>
 </p>
 
 We also support diverse generations, by running:
