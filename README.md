@@ -32,7 +32,7 @@ Please download the pre-trained models from the following links.
 |[sketch2ffhq.pt](https://drive.google.com/file/d/1_ks5FJFRi489UagwxA5L4ddILMfdCN30/view?usp=sharing)  | facial sketch ([CUFSF](http://mmlab.ie.cuhk.edu.hk/archive/cufsf/)) | StyleGAN2 trained on [FFHQ](https://github.com/NVlabs/ffhq-dataset) face.
 |[cat2dog.pt](https://drive.google.com/file/d/1V8spSm-pKJXoBZjSrfU3iO2nEYpJqgDx/view?usp=sharing)  | cat face ([AFHQ-cat](https://github.com/clovaai/stargan-v2/blob/master/README.md)) | StyleGAN2 trained on [AFHQ-dog](https://github.com/clovaai/stargan-v2/blob/master/README.md).
 
-In addition, we provide the auxiliary pre-trained models used for training models of this work.
+In addition, we provide the auxiliary pre-trained models used for training our models.
 | Name | Description
 | :--- | :----------
 |[stylegan2-ffhq-config-f.pt](https://drive.google.com/file/d/1A3rXFwAl2Bkuf6Sd4LUqzrjFmgHT7oM-/view?usp=sharing) | StyleGAN2 generator on [FFHQ](https://github.com/NVlabs/ffhq-dataset) face.
