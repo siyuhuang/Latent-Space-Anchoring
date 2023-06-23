@@ -224,7 +224,7 @@ bash commands/test_cat2dog.sh
 
 
 ## Diverse Generations
-We also support diverse model generations.
+We support diverse model generations.
 <p align="left">
 <img src="docs/diverse.jpg"/>
 </p>
@@ -235,7 +235,21 @@ bash commands/inference_seg2ffhq.sh
 ```
 
 ## Sampling
+We support sampling from a random noise.
+<p align="left">
+<img src="docs/sampling"/>
+</p>
 
+Please follow **CelebAMask-to-FFHQ** to prepare dataset and pre-trained modes. Run:
+```
+bash commands/sampling_seg2ffhq.sh
+```
+
+## Acknowledgements
+This implementation is built upon pSp. 
+
+## Contact
+[Siyu Huang](http://siyuhuang.github.io/) (huangsiyutc@gmail.com)
 
 
 
