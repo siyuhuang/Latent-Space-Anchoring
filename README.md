@@ -248,6 +248,15 @@ bash commands/sampling_seg2ffhq.sh
 ## Acknowledgements
 This implementation is built upon [StyleGAN2](https://github.com/rosinality/stylegan2-pytorch) and [pixel2style2pixel](https://github.com/eladrich/pixel2style2pixel).
 
+## Citation
+```
+@ARTICLE{huang2023domain,
+  author={Huang, Siyu and An, Jie and Wei, Donglai and Lin, Zudi and Luo, Jiebo and Pfister, Hanspeter},
+  title={Domain-Scalable Unpaired Image Translation Via Latent Space Anchoring},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  year={2023},
+```
+
 ## Contact
 [Siyu Huang](http://siyuhuang.github.io/) (huangsiyutc@gmail.com)
 
