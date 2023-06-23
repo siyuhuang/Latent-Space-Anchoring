@@ -37,7 +37,7 @@ In addition, we provide the auxiliary pre-trained models used for training model
 | :--- | :----------
 |[stylegan2-ffhq-config-f.pt](https://drive.google.com/file/d/1A3rXFwAl2Bkuf6Sd4LUqzrjFmgHT7oM-/view?usp=sharing) | StyleGAN2 generator on [FFHQ](https://github.com/NVlabs/ffhq-dataset) face.
 |[psp_ffhq_encode.pt](https://drive.google.com/file/d/1WmG-Sfcubv3QNwdMsOwW3QUeLiW0nCrf/view?usp=sharing)  | The encoder for [StyleGAN2-FFHQ](https://github.com/rosinality/stylegan2-pytorch) inversion.
-|[model_ir_se50.pth](https://drive.google.com/file/d/1lcrPgEA7PZk9mQCG2BS7DP6FUdl-4sm6/view?usp=sharing) | [IR-SE50 model](https://github.com/TreB1eN/InsightFace_Pytorch) used for encoder's weight initialization.
+|[model_ir_se50.pth](https://drive.google.com/file/d/1lcrPgEA7PZk9mQCG2BS7DP6FUdl-4sm6/view?usp=sharing) | [IR-SE50](https://github.com/TreB1eN/InsightFace_Pytorch) model used for encoder's weight initialization.
 
 ## Testing
 ### CelebAMask-to-FFHQ
