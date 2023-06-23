@@ -74,8 +74,6 @@ bash commands/test_seg2ffhq.sh
 
 <p align="left">
 <img src="docs/diverese.jpg"/>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;regressor output&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;generator output
 </p>
 
 We also support diverse generations, by running:
