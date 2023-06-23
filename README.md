@@ -221,6 +221,61 @@ bash commands/test_cat2dog.sh
 
 
 ## Training
+### CelebAMask-to-FFHQ
+Training the encoder and regressor for CelebAMask-HQ mask domain, with StyleGAN2-FFHQ as the generator backbone. It requires a single GPU with at least 16GB memory.
+
+Please download [CelebAMask-HQ dataset](https://github.com/switchablenorms/CelebAMask-HQ) and [FFHQ dataset](https://github.com/NVlabs/ffhq-dataset), put them under `./data/`. Download pre-trained models [stylegan2-ffhq-config-f.pt](https://drive.google.com/file/d/1A3rXFwAl2Bkuf6Sd4LUqzrjFmgHT7oM-/view?usp=sharing) and [model_ir_se50.pth](https://drive.google.com/file/d/1lcrPgEA7PZk9mQCG2BS7DP6FUdl-4sm6/view?usp=sharing), put them under `./pretrained_models`. The folder structure is
+```
+Latent-Space-Anchoring
+├── data
+│   ├── CelebAMask-HQ
+│   │   ├── face_parsing
+│   │   │   ├── Data_preprocessing
+│   │   │   ├── ├── train_img
+│   │   │   ├── ├── train_label
+│   │   │   ├── ├── test_img
+│   │   │   ├── ├── test_label
+│   ├── ffhq
+│   │   ├── images1024x1024
+├── pretrained_models
+│   ├── stylegan2-ffhq-config-f.pt
+│   ├── model_ir_se50.pth
+├── commands
+│   ├── train_seg2ffhq.sh
+```
+
+Run:
+```
+bash commands/train_seg2ffhq.sh
+```
+
+### Sketch-to-FFHQ
+Training the encoder and regressor for CUFSF facial sketch domain, with StyleGAN2-FFHQ as the generator backbone. It requires a single GPU with at least 16GB memory.
+
+Please download [CelebAMask-HQ dataset](https://github.com/switchablenorms/CelebAMask-HQ) and [FFHQ dataset](https://github.com/NVlabs/ffhq-dataset), put them under `./data/`. Download pre-trained models [stylegan2-ffhq-config-f.pt](https://drive.google.com/file/d/1A3rXFwAl2Bkuf6Sd4LUqzrjFmgHT7oM-/view?usp=sharing) and [model_ir_se50.pth](https://drive.google.com/file/d/1lcrPgEA7PZk9mQCG2BS7DP6FUdl-4sm6/view?usp=sharing), put them under `./pretrained_models`. The folder structure is
+```
+Latent-Space-Anchoring
+├── data
+│   ├── CelebAMask-HQ
+│   │   ├── face_parsing
+│   │   │   ├── Data_preprocessing
+│   │   │   ├── ├── train_img
+│   │   │   ├── ├── train_label
+│   │   │   ├── ├── test_img
+│   │   │   ├── ├── test_label
+│   ├── ffhq
+│   │   ├── images1024x1024
+├── pretrained_models
+│   ├── stylegan2-ffhq-config-f.pt
+│   ├── model_ir_se50.pth
+├── commands
+│   ├── train_seg2ffhq.sh
+```
+
+Run:
+```
+bash commands/train_seg2ffhq.sh
+```
 
 
 ## Diverse Generations
