@@ -224,7 +224,7 @@ bash commands/test_cat2dog.sh
 
 
 ## Diverse Generations
-We also support diverse generations.
+We also support diverse model generations.
 <p align="left">
 <img src="docs/diverse.jpg"/>
 </p>
