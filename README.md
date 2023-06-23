@@ -223,7 +223,7 @@ bash commands/test_cat2dog.sh
 It requires a single GPU with at least 16GB memory. Less GPU memory with a smaller batch size is potentially feasible, although we have not tested it.
 
 ### CelebAMask-to-FFHQ
-Train encoder and regressor for CelebAMask-HQ mask domain, with StyleGAN2-FFHQ as the generator backbone. 
+Train encoder and regressor for CelebAMask-HQ mask domain, by using StyleGAN2-FFHQ as the generator backbone. 
 
 Please download [CelebAMask-HQ dataset](https://github.com/switchablenorms/CelebAMask-HQ) and [FFHQ dataset](https://github.com/NVlabs/ffhq-dataset), put them in `./data/`. Download pre-trained models [stylegan2-ffhq-config-f.pt](https://drive.google.com/file/d/1A3rXFwAl2Bkuf6Sd4LUqzrjFmgHT7oM-/view?usp=sharing) and [model_ir_se50.pth](https://drive.google.com/file/d/1lcrPgEA7PZk9mQCG2BS7DP6FUdl-4sm6/view?usp=sharing), put them in `./pretrained_models`. The folder structure is
 ```
