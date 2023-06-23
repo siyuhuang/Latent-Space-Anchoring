@@ -72,16 +72,6 @@ Run:
 bash commands/test_seg2ffhq.sh
 ```
 
-<p align="left">
-<img src="docs/diverse.jpg"/>
-</p>
-
-We also support diverse generations, by running:
-Run:
-```
-bash commands/inference_seg2ffhq.sh
-```
-
 ### Sketch-to-FFHQ
 <p align="left">
 <img src="docs/sketch2ffhq.jpg" width="400px"/>
@@ -233,7 +223,16 @@ bash commands/test_cat2dog.sh
 ## Training
 
 
+## Diverse Generations
+We also support diverse generations.
+<p align="left">
+<img src="docs/diverse.jpg"/>
+</p>
 
+Run:
+```
+bash commands/inference_seg2ffhq.sh
+```
 
 ## Sampling
 
