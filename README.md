@@ -229,7 +229,7 @@ We also support diverse model generations.
 <img src="docs/diverse.jpg"/>
 </p>
 
-Run:
+Please follow **CelebAMask-to-FFHQ** to prepare dataset and pre-trained modes. Run:
 ```
 bash commands/inference_seg2ffhq.sh
 ```
