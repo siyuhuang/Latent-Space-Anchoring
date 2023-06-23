@@ -18,7 +18,7 @@ Given an **unpaired image-to-image translation (UNIT)** model trained on certain
 </p>
 
 ## Installation
-We recommend installing with [Anaconda](https://docs.anaconda.com/anaconda/install/). All dependencies are provided in `env.yaml`.
+We recommend installing using [Anaconda](https://docs.anaconda.com/anaconda/install/). All dependencies are provided in `env.yaml`.
 ```
 conda env create -f env.yaml
 conda activate lsa
@@ -46,7 +46,6 @@ In addition, we provide the auxiliary pre-trained models used for training our m
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;regressor output&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;generator output
 </p>
-
 
 Unpaired image translation from CelebAMask-HQ mask to FFHQ image.
 
