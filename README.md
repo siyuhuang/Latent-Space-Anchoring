@@ -246,7 +246,7 @@ bash commands/sampling_seg2ffhq.sh
 ```
 
 ## Acknowledgements
-This implementation is built upon [StyleGAN2](https://github.com/rosinality/stylegan2-pytorch), [pixel2style2pixel](https://github.com/eladrich/pixel2style2pixel).
+This implementation is built upon [StyleGAN2](https://github.com/rosinality/stylegan2-pytorch) and [pixel2style2pixel](https://github.com/eladrich/pixel2style2pixel).
 
 ## Contact
 [Siyu Huang](http://siyuhuang.github.io/) (huangsiyutc@gmail.com)
