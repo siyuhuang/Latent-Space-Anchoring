@@ -303,11 +303,12 @@ This implementation is built upon [StyleGAN2](https://github.com/rosinality/styl
 
 ## Citation
 ```
-@ARTICLE{huang2023domain,
+@article{huang2023domain,
   author={Huang, Siyu and An, Jie and Wei, Donglai and Lin, Zudi and Luo, Jiebo and Pfister, Hanspeter},
   title={Domain-Scalable Unpaired Image Translation Via Latent Space Anchoring},
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
   year={2023},
+}
 ```
 
 ## Contact
