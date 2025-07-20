@@ -35,9 +35,9 @@ Please download the pre-trained models from the following links.
 In addition, we provide the auxiliary pre-trained models used for training our models.
 | Name | Description
 | :--- | :----------
-|[stylegan2-ffhq-config-f.pt](https://drive.google.com/file/d/1A3rXFwAl2Bkuf6Sd4LUqzrjFmgHT7oM-/view?usp=sharing) | StyleGAN2 generator on [FFHQ](https://github.com/NVlabs/ffhq-dataset) face.
-|[psp_ffhq_encode.pt](https://drive.google.com/file/d/1WmG-Sfcubv3QNwdMsOwW3QUeLiW0nCrf/view?usp=sharing)  | The encoder for [StyleGAN2-FFHQ](https://github.com/rosinality/stylegan2-pytorch) inversion.
-|[model_ir_se50.pth](https://drive.google.com/file/d/1lcrPgEA7PZk9mQCG2BS7DP6FUdl-4sm6/view?usp=sharing) | [IR-SE50](https://github.com/TreB1eN/InsightFace_Pytorch) model used for encoder's weight initialization.
+|[stylegan2-ffhq-config-f.pt](https://drive.google.com/file/d/1NghBNgK6x5E9d3yyq_VFns3Lsl9JSR1K/view?usp=drive_link) | StyleGAN2 generator on [FFHQ](https://github.com/NVlabs/ffhq-dataset) face.
+|[psp_ffhq_encode.pt](https://drive.google.com/file/d/1jsaz6fgr_22jjSjaPmddkodbdohnZu0y/view?usp=drive_link)  | The encoder for [StyleGAN2-FFHQ](https://github.com/rosinality/stylegan2-pytorch) inversion.
+|[model_ir_se50.pth](https://drive.google.com/file/d/1ZNKfkNg5LUK4aIjck-2Cg90XSW-7Vn3Z/view?usp=drive_link) | [IR-SE50](https://github.com/TreB1eN/InsightFace_Pytorch) model used for encoder's weight initialization.
 
 ## Testing
 ### CelebAMask-to-FFHQ
@@ -225,7 +225,7 @@ It requires a single GPU with at least 16GB memory. Less GPU memory with a small
 ### CelebAMask-to-FFHQ
 Train encoder and regressor for CelebAMask-HQ mask domain, by using StyleGAN2-FFHQ as the generator backbone. 
 
-Please download [CelebAMask-HQ dataset](https://github.com/switchablenorms/CelebAMask-HQ) and [FFHQ dataset](https://github.com/NVlabs/ffhq-dataset), put them in `./data/`. Download pre-trained models [stylegan2-ffhq-config-f.pt](https://drive.google.com/file/d/1A3rXFwAl2Bkuf6Sd4LUqzrjFmgHT7oM-/view?usp=sharing) and [model_ir_se50.pth](https://drive.google.com/file/d/1lcrPgEA7PZk9mQCG2BS7DP6FUdl-4sm6/view?usp=sharing), put them in `./pretrained_models`. The folder structure is
+Please download [CelebAMask-HQ dataset](https://github.com/switchablenorms/CelebAMask-HQ) and [FFHQ dataset](https://github.com/NVlabs/ffhq-dataset), put them in `./data/`. Download pre-trained models [stylegan2-ffhq-config-f.pt](https://drive.google.com/file/d/1NghBNgK6x5E9d3yyq_VFns3Lsl9JSR1K/view?usp=drive_link) and [model_ir_se50.pth](https://drive.google.com/file/d/1ZNKfkNg5LUK4aIjck-2Cg90XSW-7Vn3Z/view?usp=drive_link), put them in `./pretrained_models`. The folder structure is
 ```
 Latent-Space-Anchoring
 ├── data
